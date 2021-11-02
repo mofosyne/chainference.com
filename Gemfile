@@ -30,3 +30,12 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 gem "minimal-mistakes-jekyll"
 gem "webrick", "~> 1.7"
+
+### START ASSETS ###
+# https://github.com/envygeeks/jekyll-assets/blob/master/README.md
+gem "jekyll-assets", group: :jekyll_plugins
+#gem "jekyll-assets", git: "https://github.com/envygeeks/jekyll-assets", group: :jekyll_plugins
+#gem "jekyll-assets", "~> x.x.alpha", group: :jekyll_plugins
+gem "mini_magick"
+gem "image_optim"
+### END ASSETS ###
