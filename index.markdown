@@ -30,7 +30,7 @@ feature_row:
   - image_path: /assets/images/minisplash3.jpg
     alt: "workingspace"
     title: "Social Reform Talks"
-    excerpt: "Talks about non technical but impotortant topics like adapting to post pandemic work life balance"
+    excerpt: "Talks about non technical but importaint topics like adapting to post pandemic work life balance"
     url: "/docs/license/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
