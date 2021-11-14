@@ -69,6 +69,10 @@ GEM
       sprockets (~> 2.10)
       sprockets-helpers
       sprockets-sass
+    jekyll-compose (0.12.0)
+      jekyll (>= 3.7, < 5.0)
+    jekyll-default-layout (0.1.5)
+      jekyll (>= 3.0, < 5.0)
     jekyll-feed (0.15.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-gist (1.5.0)
@@ -161,6 +165,8 @@ DEPENDENCIES
   image_optim
   jekyll (~> 4.2.1)
   jekyll-assets
+  jekyll-compose
+  jekyll-default-layout
   jekyll-feed (~> 0.12)
   mini_magick
   minima (~> 2.5)

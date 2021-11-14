@@ -6,21 +6,21 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 theme                    : "minimal-mistakes-jekyll"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Chainference"
+title                    : "Minimal Mistakes"
 title_separator          : "-"
-subtitle                 : "Conferences and methodology for technology and impact"
-name                     : "Chainference Team"
-description              : "Technology and Impact"
+subtitle                 : "Development Test Site"
+name                     : "Your Name"
+description              : "Minimal Mistakes theme test."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/"
+baseurl                  : "/test"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-#logo                     : "/assets/images/apple-touch-icon.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "Chainference" # overrides the website title displayed in the masthead, use " " for no title
+logo                     : "/assets/images/apple-touch-icon.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : "Custom Title" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -52,74 +52,74 @@ atom_feed:
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
 search_provider          : "lunr"
-#algolia:
-#  application_id         : "QB6HVGBSBA"
-#  index_name             : "dev_minimal-mistakes"
-#  search_only_api_key    : "9d5014e5bbc77372547bce778dfa5663"
-#  powered_by             : true
+algolia:
+  application_id         : "QB6HVGBSBA"
+  index_name             : "dev_minimal-mistakes"
+  search_only_api_key    : "9d5014e5bbc77372547bce778dfa5663"
+  powered_by             : true
 
 # SEO Related
-#google_site_verification :
-#bing_site_verification   :
-#yandex_site_verification :
+google_site_verification :
+bing_site_verification   :
+yandex_site_verification :
 
-# # Social Sharing
-# twitter:
-#   username               : "mmistakes"
-# facebook:
-#   username               :
-#   app_id                 :
-#   publisher              :
-# og_image                 : #"/assets/images/bio-photo.jpg"
-# # For specifying social profiles
-# # - https://developers.google.com/structured-data/customize/social-profiles
-# social:
-#   type                   : # Person or Organization (defaults to Person)
-#   name                   : # If the user or organization name differs from the site's name
-#   links: # An array of links to social media profiles
-#     - https://twitter.com/
-#     - https://github.com/
+# Social Sharing
+twitter:
+  username               : "mmistakes"
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : "/assets/images/bio-photo.jpg"
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+    - https://twitter.com/
+    - https://github.com/
 
 # Analytics
-#analytics:
-#  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
-#  google:
-#    tracking_id          :
+analytics:
+  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          :
 
 
-# # Site Author
-# author:
-#   name             : "Your Name"
-#   avatar           : "/assets/images/bio-photo.jpg"
-#   bio              : "I am an **amazing** person."
-#   location         : "Somewhere"
-#   links:
-#     - label: "Your Website"
-#       icon: "fas fa-fw fa-link"
-#       url: "https://your-site.com"
-#     - label: "Twitter"
-#       icon: "fab fa-fw fa-twitter-square"
-#       url: "https://twitter.com/"
-#     - label: "GitHub"
-#       icon: "fab fa-fw fa-github"
-#       url: "https://github.com/"
-#     - label: "Instagram"
-#       icon: "fab fa-fw fa-instagram"
-#       url: "https://instagram.com/"
+# Site Author
+author:
+  name             : "Your Name"
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "I am an **amazing** person."
+  location         : "Somewhere"
+  links:
+    - label: "Your Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://your-site.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
 
 
-# # Site Footer
-# footer:
-#   links:
-#     - label: "Twitter"
-#       icon: "fab fa-fw fa-twitter-square"
-#       url: "https://twitter.com/"
-#     - label: "GitHub"
-#       icon: "fab fa-fw fa-github"
-#       url: "https://github.com/"
-#     - label: "Instagram"
-#       icon: "fab fa-fw fa-instagram"
-#       url: "https://instagram.com/"
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
 
 
 # Reading Files
@@ -210,6 +210,7 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
 
+
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
@@ -249,13 +250,13 @@ compress_html:
 
 # Collections
 collections:
-  enviromental:
+  recipes:
     output: true
     permalink: /:collection/:path/
-  technological:
+  pets:
     output: true
     permalink: /:collection/:path/
-  socialogical:
+  portfolio:
     output: true
     permalink: /:collection/:path/
 
@@ -279,70 +280,27 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _enviromental
+  # _recipes
   - scope:
       path: ""
-      type: enviromental
+      type: recipes
     values:
       layout: single
       author_profile: true
       share: true
-  # _technological
+  # _pets
   - scope:
       path: ""
-      type: technological
+      type: pets
     values:
       layout: single
       author_profile: true
       share: true
-  # _sociological
+  # _portfolio
   - scope:
       path: ""
-      type: sociological
+      type: portfolio
     values:
       layout: single
       author_profile: false
       share: true
-
-
-# https://github.com/envygeeks/jekyll-assets/blob/master/README.md
-assets:
-  source_maps: true
-  destination: "/assets"
-  compression: false
-  gzip: false
-  defaults:
-    integrity:
-      {css,img,js}: false
-  caching:
-    enabled: true
-    path: ".jekyll-cache/assets"
-    type: file
-  # --
-  # Assets you wish to always have compiled.
-  #   This can also be combined with raw_precompile which
-  #   copies assets without running through the pipeline
-  #   making them ultra fast.
-  # --
-  precompile: []
-  raw_precompile: [
-    #
-  ]
-  # --
-  # baseurl: whether or not to append site.baseurl
-  # destination: the folder you store them in on the CDN.
-  # url: the CDN url (fqdn, or w/ identifier).
-  # --
-  cdn:
-    baseurl: false
-    destination: false
-    url: null
-  # --
-  # See lib/jekyll/assets/config.rb
-  #   for a list of defaults
-  # --
-  sources:
-    - _assets/custom
-  plugins:
-    css: { autoprefixer: {}}
-    img: { optim: {}}

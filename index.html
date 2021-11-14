@@ -2,6 +2,8 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: splash
+#layout: home
+author_profile: true
 permalink: /
 hidden: true
 header:
@@ -11,29 +13,47 @@ header:
     - label: "<i class='fas fa-download'></i> Events"
       url: "/events"
 excerpt: >
-    A yearly event on techology and society
+    A Yearly Series Of Gatherings For Technological and Social Impact
 feature_row:
   - image_path: /assets/images/minisplash1.jpg
     alt: "enviroment"
     title: "Enviromental Talks"
     excerpt: "A chainference event can contain talks about ecological improvements via technology or policy"
-    url: "enviroment"
+    url: "enviromental"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/minisplash2.jpg
     alt: "smartphone"
     title: "Technological Talks"
     excerpt: "A chainference talk could also be about technology topics as well"
-    url: "/docs/layouts/"
+    url: "technological"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/minisplash3.jpg
     alt: "workingspace"
     title: "Social Reform Talks"
     excerpt: "Talks about non technical but importaint topics like adapting to post pandemic work life balance"
-    url: "/docs/license/"
+    url: "sociological"
     btn_class: "btn--primary"
     btn_label: "Learn more"
 ---
 
+<p>This text should appear above the recent posts.</p>
+
+
 {% include feature_row %}
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in posts %}
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %}
+</div>
+
+{% include paginator.html %}

@@ -39,3 +39,5 @@ gem "jekyll-assets", group: :jekyll_plugins
 gem "mini_magick"
 gem "image_optim"
 ### END ASSETS ###
+
+gem 'jekyll-compose', group: [:jekyll_plugins]
